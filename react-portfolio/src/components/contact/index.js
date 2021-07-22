@@ -26,13 +26,13 @@ const ContactInfo = () => {
                     <h3>LinkedIn</h3>
                     <hr className="hr-dark w-25" />
                     <a href="https://www.linkedin.com/in/stephendever/">
-                        <MDBIcon fab icon="linkedin-in" />
+                        <MDBIcon fab icon="linkedin-in" /> linkedin.com/in/stephendever/
                     </a>
 
                     <h3>GitHub</h3>
                     <hr className="hr-dark w-25" />
                     <a href="https://github.com/stevedev75">
-                    <MDBIcon fab icon="github"/>
+                    <MDBIcon fab icon="github"/> github.com/stevedev75
                     </a>
 
         </MDBCol>
