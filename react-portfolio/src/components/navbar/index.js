@@ -5,15 +5,15 @@ import {
   MDBNavbarNav,
   MDBNavItem,
   MDBNavLink,
-  MDBIcon,
+  
 } from "mdbreact";
 
 function Navbar() {
   return (
     <MDBNavbar
-      color="special-color-dark" 
+      color="blue"
 //how to make background color to blue here?? //     
-      background-color="#2fa4de!important" 
+      
       expand="md"
       style={{ width: "100%" }}
     >
@@ -23,26 +23,22 @@ function Navbar() {
       <MDBNavbarNav right>
         <MDBNavItem>
           <MDBNavLink className="waves-effect waves-light" to="/about">
-          //  <MDBIcon icon="home" className="mr-1" /> //
-            About Me
+          <strong className="white-text">About Me</strong>
           </MDBNavLink>
         </MDBNavItem>
         <MDBNavItem>
           <MDBNavLink className="waves-effect waves-light" to="/portfolio">
-       //     <MDBIcon icon="code" className="mr-1" /> //
-            Apps
+          <strong className="white-text">Apps</strong>
           </MDBNavLink>
         </MDBNavItem>
         <MDBNavItem>
           <MDBNavLink className="waves-effect waves-light" to="/resume">
-         //   <MDBIcon icon="file" className="mr-1" /> //
-            Resume
+          <strong className="white-text">Resume</strong>
           </MDBNavLink>
         </MDBNavItem>
         <MDBNavItem>
           <MDBNavLink className="waves-effect waves-light" to="/contact">
-         //   <MDBIcon icon="envelope" className="mr-1" /> //
-            Contact
+          <strong className="white-text">Contact</strong>
           </MDBNavLink>
         </MDBNavItem>
       </MDBNavbarNav>

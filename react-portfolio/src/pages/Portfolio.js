@@ -1,6 +1,6 @@
 import React from "react";
-import Wrapper from "../components/Wrapper/index";
-import Projects from "../components/Portfolio/index";
+import Wrapper from "../components/wrapper/index";
+import Projects from "../components/portfolio/index";
 
 function Portfolio() {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
-import AboutMe from "../components/About/index";
-import Wrapper from "../components/Wrapper/index";
+import AboutMe from "../components/about/index";
+import Wrapper from "../components/wrapper/index";
 
 function About() {
   return (

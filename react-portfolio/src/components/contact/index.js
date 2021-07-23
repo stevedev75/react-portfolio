@@ -22,12 +22,16 @@ const ContactInfo = () => {
                     <a href="mailto:stephendever.cr@gmail.com">
                         <MDBIcon icon="envelope" /> stephendever.cr@gmail.com
                     </a>
+                    <br></br>
+                    <br></br>
 
                     <h3>LinkedIn</h3>
                     <hr className="hr-dark w-25" />
                     <a href="https://www.linkedin.com/in/stephendever/">
                         <MDBIcon fab icon="linkedin-in" /> linkedin.com/in/stephendever/
                     </a>
+                    <br></br>
+                    <br></br>
 
                     <h3>GitHub</h3>
                     <hr className="hr-dark w-25" />

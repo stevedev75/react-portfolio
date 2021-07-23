@@ -33,3 +33,4 @@ const AboutMe = () => {
     </MDBContainer>
   );
 };
+export default AboutMe;

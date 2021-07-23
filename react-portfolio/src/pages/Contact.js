@@ -1,6 +1,6 @@
 import React from "react";
-import ContactInfo from "../components/Contact/index";
-import Wrapper from "../components/Wrapper/index";
+import ContactInfo from "../components/contact/index";
+import Wrapper from "../components/wrapper/index";
 
 function Contact() {
   return (
