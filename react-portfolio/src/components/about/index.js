@@ -12,7 +12,6 @@ const AboutMe = () => {
           <img
             style={{ height: "285px" }}
             src= "https://avatars.githubusercontent.com/u/77076615?v=4"
-            class="rounded-circle"
             class="float-left pr-4 pb-3 img-fluid">
             </img>
           
@@ -22,7 +21,7 @@ const AboutMe = () => {
           </p>
           <p style={{ fontSize: "18px" }}>
             In my most recent roles, I was a power user of various educational technology products and 
-            platforms which piqued my interest in web development, eventually leading me to this exciting pivot.Now, as I am entering the “Career 2.0” phase of my life I couldn’t be more pleased about what I have already learned and what I will be learning during the rest of this six-month program.
+            platforms which piqued my interest in web development, eventually leading me to this exciting pivot. Now, as I am entering the “Career 2.0” phase of my life I couldn’t be more pleased about what I have already learned and what I will be learning during the rest of this six-month program.
           </p>
  	  <p style={{ fontSize: "18px" }}>
             So far, we have had practical experience with HTML, CSS, JavaScript, jQuery, Bootstrap,

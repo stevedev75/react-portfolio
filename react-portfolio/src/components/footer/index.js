@@ -7,7 +7,7 @@ function Footer() {
  <footer class="page-footer fixed-bottom font-small color blue pt-4">
 
       <div class="footer-copyright text-center py-3">
-        © 2021 Copyright Stephen Dever
+        © 2021 Stephen Dever
         
       </div>
     </footer>
