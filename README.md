@@ -13,7 +13,7 @@
 
 
 Please see the deployed application on GitHb Pages:
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+https://stevedev75.github.io/react-portfolio/
 
 Please see the link to my GitHub repository for the code:
 https://github.com/stevedev75/react-portfolio
