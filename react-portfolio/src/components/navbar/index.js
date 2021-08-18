@@ -15,8 +15,7 @@ function Navbar() {
 //how to make background color to blue here?? //     
       
       expand="md"
-      style={{ width: "100%" }}
-    >
+      style={{ width: "100%" }}>
       <MDBNavbarBrand>
         <strong className="white-text">Stephen Dever</strong>
       </MDBNavbarBrand>
