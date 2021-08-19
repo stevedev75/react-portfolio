@@ -16,9 +16,54 @@ const Projects = () => {
     <MDBContainer className="mt-5">
       <MDBCardGroup deck className="mt-3">
 
+      <MDBCard className="border border-dark center card text-center">
+          <MDBCardImage
+            style={{ width: "350px", innerHeight: "800"}}
+
+            
+            src="https://user-images.githubusercontent.com/77076615/129121542-c0bf91aa-d991-437d-99a0-6b2f5cc13a52.png"
+            alt="Castaway Entertainment"
+            top
+          />
+          <MDBCardBody>
+            <MDBCardTitle tag="h5">Castaway Entertainment</MDBCardTitle>
+            <MDBCardText>
+
+             I developed this "still-in-progress" app to be a fun way to let the user prioritize their favorite music and "pack" it
+             away. It is meant to demonstrate a MERN stack app and CRUD processes.  
+            </MDBCardText>
+
+            <MDBBtn
+
+              href="https://safe-reaches-62510.herokuapp.com/"
+              color="primary"
+              size="md"
+            >
+              App
+            </MDBBtn>
+
+
+
+            <MDBBtn
+              href="https://github.com/stevedev75/castaway-entertainment"
+              color="primary"
+              size="md"
+            >
+              
+              Repo
+            </MDBBtn>
+
+
+          </MDBCardBody>
+        </MDBCard>
+
+
+
+
+
         <MDBCard className="border border-dark center card text-center">
           <MDBCardImage
-            style={{ width: "380px", innerHeight: "800"}}
+            style={{ width: "350px", innerHeight: "800"}}
 
             
             src="https://user-images.githubusercontent.com/77076615/115097293-377d4780-9ef7-11eb-8d50-8f72443b26f7.png"
@@ -61,7 +106,7 @@ const Projects = () => {
 
         <MDBCard className="border border-dark card text-center">
           <MDBCardImage
-             style={{ width: "380px", innerHeight: "800"}}
+             style={{ width: "350px", innerHeight: "800"}}
             src="https://user-images.githubusercontent.com/77076615/114306392-e65df580-9aa9-11eb-88c4-04dda67e5c1e.png"
             alt="Weather Dashboard"
             top
@@ -99,7 +144,7 @@ const Projects = () => {
         </MDBCard>
 
 
-        <MDBCard className="border border-dark card text-center">
+        {/* <MDBCard className="border border-dark card text-center">
           <MDBCardImage
                      
             style={{ width: "350px", innerHeight: "700"}}
@@ -133,7 +178,7 @@ const Projects = () => {
               Repo
             </MDBBtn>
           </MDBCardBody>
-        </MDBCard>
+        </MDBCard> */}
 
 
 
