@@ -16,9 +16,9 @@ const Projects = () => {
     <MDBContainer className="mt-5">
       <MDBCardGroup deck className="mt-3">
 
-        <MDBCard className="border border-dark">
+        <MDBCard className="border border-dark center card text-center">
           <MDBCardImage
-            style={{ width: "530px" }}
+            style={{ width: "380px", innerHeight: "800"}}
 
             
             src="https://user-images.githubusercontent.com/77076615/115097293-377d4780-9ef7-11eb-8d50-8f72443b26f7.png"
@@ -59,9 +59,9 @@ const Projects = () => {
         </MDBCard>
 
 
-        <MDBCard className="border border-dark">
+        <MDBCard className="border border-dark card text-center">
           <MDBCardImage
-            style={{ width: "530px" }}
+             style={{ width: "380px", innerHeight: "800"}}
             src="https://user-images.githubusercontent.com/77076615/114306392-e65df580-9aa9-11eb-88c4-04dda67e5c1e.png"
             alt="Weather Dashboard"
             top
@@ -99,10 +99,10 @@ const Projects = () => {
         </MDBCard>
 
 
-        <MDBCard className="border border-dark">
+        <MDBCard className="border border-dark card text-center">
           <MDBCardImage
                      
-            style={{ width: "530px" }}
+            style={{ width: "350px", innerHeight: "700"}}
             src="https://user-images.githubusercontent.com/77076615/113415057-65f21300-938c-11eb-884d-4eafce735dab.png"
             alt="Work Day Scheduler"
             top
@@ -110,8 +110,8 @@ const Projects = () => {
           <MDBCardBody>
             <MDBCardTitle tag="h5">Work Day Scheduler</MDBCardTitle>
             <MDBCardText>
-              In this assignment, I wanted to create an app so the user can schedule different Work
-              tasks for any hour of a "typical" 9 to 5 workday.
+              In this assignment, I wanted to create a practical app so the user can schedule, update and delete different Work
+              tasks for any hour of a 9 to 5 workday.
             </MDBCardText>
 
             <MDBBtn
