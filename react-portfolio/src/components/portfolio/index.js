@@ -20,6 +20,7 @@ const Projects = () => {
           <MDBCardImage
             style={{ width: "530px" }}
 
+            
             src="https://user-images.githubusercontent.com/77076615/115097293-377d4780-9ef7-11eb-8d50-8f72443b26f7.png"
             alt="Pandemic Travel Dashboard"
             top
